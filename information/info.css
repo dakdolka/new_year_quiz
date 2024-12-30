@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'cave';
+    src: url('../files/fonts/Caveat-Regular.ttf'), format('ttf');
+}
+
+body{
+    background-color: rgb(175, 139, 95);
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+    --main-font: 'cave';
+}
+
+.info-container{
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+.info{
+    font-family: var(--main-font);
+    font-size: 3vh;
+    text-align: center;
+}
+
+/* info buttons container */
+.ibp-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+
+/* info buttons parent */
+.ibp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 10px;
+    font-size: 4vh;
+    font-family: var(--main-font);
+}
+
+/* .ibp--cont{
+    background-color: rgb(255, 255, 255);
+}
+
+.ibp--end{
+    background-color: rgb(255, 255, 255);
+} */
