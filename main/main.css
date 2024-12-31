@@ -36,26 +36,27 @@ a{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
     top: 20vh;
-    left: 7vw;
-    width: auto;
+    width: 100vw;
     height: 60vh;
 }
 
-.main-btn{
+.main-btn {
     display: flex;
     border: solid 2px black;
     border-radius: 10px;
-    width: 20vw;
+    width: 18vw;
     height: 15vh;
     text-align: center;
     font-size: 4vh;
-    margin-left: 1vw;
+    /* margin-left: 1vw; */
     align-items: center;
     justify-content: center;
     color: black;
     background-color:beige;
 }
+
 .clear-btn{
     position: fixed;
     bottom: 1px;
