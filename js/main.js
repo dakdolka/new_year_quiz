@@ -5,8 +5,12 @@ else{
   ppls = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
 
+function super_game(value) {
+  document.getElementById(value).classList.toggle('close-super')
+}
+
 function counter(elem, flag){
-    var ppl_id = parseInt(elem.id, 10);
+    var ppl_id = parseInt(elem.id, 10); 
     if (flag){
       ppls[ppl_id] = ppls[ppl_id] + 1;
     }
@@ -26,6 +30,7 @@ function hideElements() {
         }
       }
   }
+
 
 function balls(){
   console.log(ppls);
