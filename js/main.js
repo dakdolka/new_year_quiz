@@ -3,8 +3,8 @@ if(JSON.parse(localStorage.getItem("ppls"))){
   btn_colors=JSON.parse(localStorage.getItem("btn_colors"));
 }
 else{
-  ppls = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-  btn_colors = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  ppls = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  btn_colors = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
 
 function super_game(value) {
@@ -55,8 +55,10 @@ function balls(){
 }
   
 function clear_locals() {
-  ppls = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  ppls = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+  btn_colors = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   localStorage.setItem("ppls", JSON.stringify(ppls));
+  localStorage.setItem("btn_colors", JSON.stringify(btn_colors));
   location.reload()
 }
 
