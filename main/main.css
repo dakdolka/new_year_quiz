@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'cave';
-    src: url('../files/fonts/RubikVinyl-Regular.ttf'), format('ttf');
+    font-family: 'rubik';
+    src: url('../files/fonts/SpicyRice-Regular.ttf'), format('ttf');
 }
 
 body{
@@ -24,8 +24,8 @@ a{
 }
 
 .btns-text{
-    font-family: 'cave';
-    color: black;
+    font-family: 'rubik';
+    color: rgb(43, 43, 43);
     /* background-color: rgba(50, 50, 50, 0.4); */
     padding: 5px;
     /* border-radius: 5px; */
