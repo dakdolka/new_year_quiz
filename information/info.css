@@ -14,13 +14,19 @@ a{
     --main-font: 'cave';
 }
 
+.close-super{
+    display: none;
+}
+
 .info-container{
+    display: block;
     margin-left: 15vw;
     margin-right: 15vw;
 }
+
 .info{
     font-family: var(--main-font);
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-align: center;
 }
 
@@ -29,8 +35,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 
@@ -46,6 +52,16 @@ a{
     font-family: var(--main-font);
     background-color: beige;
 
+}
+
+.super-container{
+    /* display: block; */
+}
+
+.super_text{  
+    font-family: var(--main-font);
+    font-size: 3.5vh;
+    text-align: center;
 }
 
 /* .ibp--cont{
