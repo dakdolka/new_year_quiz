@@ -29,13 +29,12 @@ function hideElements() {
 
 function balls(){
   console.log(ppls);
-    const btns = document.querySelectorAll('.main-btn');
+    const btns = document.querySelectorAll('.btns-text');
     for (let i = 0; i < btns.length; i++) {
       if (ppls[i] >= 0){
         btns[i].textContent = 300 - ((ppls[i] % 3) * 100);}
       else{
         btns[i].textContent = 'Победа!';
-        btns[i].style.color = 'green';
       }
 
     }
@@ -44,6 +43,7 @@ function balls(){
 function clear_locals() {
   ppls = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
   localStorage.setItem("ppls", JSON.stringify(ppls));
+  location.reload()
 }
 
 document.addEventListener('DOMContentLoaded', () =>{

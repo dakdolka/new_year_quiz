@@ -44,6 +44,8 @@ a{
     border-radius: 10px;
     font-size: 4vh;
     font-family: var(--main-font);
+    background-color: beige;
+
 }
 
 /* .ibp--cont{

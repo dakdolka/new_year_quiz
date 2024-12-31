@@ -15,7 +15,7 @@ function setRandomBack() {
 }
 
 for (let btn of btns) {
-    btn.style.transition = 'all 0.3s ease-in-out'; // Переход только при изменении opacity
+    btn.style.transition = 'all 0.3s ease-in-out';
     btn.addEventListener('mouseenter', setRandomBack);
     btn.addEventListener('mouseleave', function () {
         this.style.backgroundImage = ''; 

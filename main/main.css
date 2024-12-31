@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'cave';
+    src: url('../files/fonts/Caveat-Regular.ttf'), format('ttf');
+}
+
+@font-face {
+    font-family: 'cave';
+    src: url('../files/fonts/RubikVinyl-Regular.ttf'), format('ttf');
+}
+
 body{
     margin: 0;
     /* background-image: url('files/img/test.png'); */
@@ -13,6 +23,14 @@ a{
     text-decoration: none;
 }
 
+.btns-text{
+    font-family: 'cave';
+    color: black;
+    /* background-color: rgba(50, 50, 50, 0.4); */
+    padding: 5px;
+    /* border-radius: 5px; */
+}
+
 .main-container{
     position: relative;
     display: flex;
@@ -20,13 +38,13 @@ a{
     flex-wrap: wrap;
     top: 20vh;
     left: 7vw;
-    width: 80,1vw;
+    width: auto;
     height: 60vh;
 }
 
 .main-btn{
     display: flex;
-    border: dashed 1px black;
+    border: solid 2px black;
     border-radius: 10px;
     width: 20vw;
     height: 15vh;
@@ -35,7 +53,16 @@ a{
     margin-left: 1vw;
     align-items: center;
     justify-content: center;
-    color: rgb(19, 95, 0);
+    color: black;
+    background-color:beige;
+}
+.clear-btn{
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    font-size: 2vh;
+    background-color: rgba(50, 50, 50, 0.4);
+    border: solid 2px black;
 
     /* &:hover{
         border: solid 1px black;
