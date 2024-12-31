@@ -39,7 +39,7 @@ function hideElements() {
 
 function balls(){
   const btns_text = document.querySelectorAll('.btns-text');
-  let colors = ['none', 'rgb(255, 100, 100)', 'rgb(100, 255, 100)', 'rgb(100, 100, 255)'];
+  let colors = ['none', 'rgb(255, 100, 100)', 'rgb(100, 100, 255)'];
   for (let i = 0; i < btns_text.length; i++) {
     if (ppls[i] >= 0){
       btns_text[i].textContent = 300 - ((ppls[i] % 3) * 100);}
