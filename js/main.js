@@ -56,8 +56,6 @@ function balls(){
   
 function clear_locals() {
   ppls = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-  btn_colors = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-  localStorage.setItem("btn_colors", JSON.stringify(btn_colors));
   localStorage.setItem("ppls", JSON.stringify(ppls));
   location.reload()
 }
